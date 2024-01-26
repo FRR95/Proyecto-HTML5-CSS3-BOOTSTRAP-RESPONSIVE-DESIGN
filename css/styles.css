@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
+    font-size: large;
 }
 
 .col a {
@@ -10,14 +10,18 @@ body {
     transition: 0.5s;
     font-style: italic;
     font-size: large;
-    color: rgb(245, 192, 45);
+    color: rgb(170, 135, 39);
 }
 
 a:hover {
     text-decoration: underline;
     transition: 0.5s;
-    color: rgb(190, 148, 33);
+    color: rgb(114, 89, 21);
 
+}
+
+ul{
+list-style-type: none;
 }
 
 .logo {
@@ -25,6 +29,18 @@ a:hover {
     width: 7em;
 }
 
-.nav{
-background-color: beige;
+.colornavfooter{
+background-color: rgb(211, 211, 71);
+}
+
+.sectionhome{
+height: 50em;
+}
+#footercenter{
+border-left:1px solid black;
+border-right:1px solid black;
+}
+.map{
+height: 9em;
+width: 9em;
 }
