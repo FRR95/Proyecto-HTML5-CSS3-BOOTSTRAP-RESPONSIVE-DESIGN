@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.col a {
+    text-decoration: none;
+    transition: 0.5s;
+    font-style: italic;
+    font-size: large;
+    color: rgb(245, 192, 45);
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+    color: rgb(190, 148, 33);
+
+}
+
+.logo {
+    height: 7em;
+    width: 7em;
+}
+
+.nav{
+background-color: beige;
+}
