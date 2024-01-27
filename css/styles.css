@@ -3,6 +3,8 @@ body {
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
+
+
 }
 
 .col a {
@@ -20,27 +22,63 @@ a:hover {
 
 }
 
-ul{
-list-style-type: none;
+ul {
+    list-style-type: none;
 }
+
 
 .logo {
-    height: 7em;
-    width: 7em;
+    width: 9em;
+    height: 9em;
 }
 
-.colornavfooter{
-background-color: rgb(211, 211, 71);
+.colornavfooter {
+    background-color: rgb(255, 240, 191);
 }
 
-.sectionhome{
-height: 50em;
+#content {
+    background-color: rgb(214, 209, 166);
 }
-#footercenter{
-border-left:1px solid black;
-border-right:1px solid black;
+
+/* #sectionhome {
+
+   
+} */
+
+.indexcontent {
+    /* background-color: aquamarine; */
+    margin-top: 1em; 
+
 }
-.map{
-height: 9em;
-width: 9em;
+
+#indeximgquienessomos{
+height: 10em;
+width: 20em;
+}
+#indexcontenttop{
+margin-bottom: 10em;
+}
+#indexcontenttopright{
+    border-left: solid rgba(0, 0, 0, 0.342);
+
+}
+#indexcontentmid{
+    margin-bottom: 10em;
+
+}
+#indexcontentmidright{
+    border-left: solid rgba(0, 0, 0, 0.342);
+
+}
+
+
+
+#footercenter {
+    border-left: solid rgba(0, 0, 0, 0.342);
+    border-right: solid rgba(0, 0, 0, 0.342);
+    border-width: 0.1px;
+}
+
+.underlined {
+    text-decoration: underline;
 }
