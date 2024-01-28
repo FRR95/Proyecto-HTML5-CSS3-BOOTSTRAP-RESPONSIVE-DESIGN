@@ -31,6 +31,10 @@ ul {
     width: 9em;
     height: 9em;
 }
+.logocontact {
+    width: 5em;
+    height: 5em;
+}
 
 .colornavfooter {
     background-color: rgb(255, 240, 191);
@@ -71,7 +75,21 @@ margin-bottom: 10em;
 
 }
 
-
+#sectioncontact{
+border: 1px solid black;
+}
+#sectioncontacttop{
+    border: 1px solid black;
+    }
+#sectioncontacttopleft{
+    border: 1px solid black;
+    }
+#sectioncontacttopright{
+    border: 1px solid black;
+    }
+#sectioncontactbottom{
+    border: 1px solid black;
+    }
 
 #footercenter {
     border-left: solid rgba(0, 0, 0, 0.342);
