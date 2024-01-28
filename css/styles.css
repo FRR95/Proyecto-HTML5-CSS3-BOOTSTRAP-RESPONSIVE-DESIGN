@@ -31,7 +31,9 @@ ul {
     width: 9em;
     height: 9em;
 }
-
+.italic{
+font-style: italic;
+}
 .logocontact {
     width: 5em;
     height: 5em;
@@ -56,14 +58,14 @@ ul {
 
 }
 
-#indeximgquienessomos {
+.indeximgs {
     height: 10em;
     width: 20em;
 }
 
 #indexcontenttop {
- margin-top:10em;  
- margin-bottom: 10em;
+    margin-top: 10em;
+    margin-bottom: 10em;
 }
 
 #indexcontenttopright {
@@ -89,11 +91,22 @@ ul {
 }
 
 #sectioncontacttop {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.342);
+    margin-top: 2em;
 }
 
-#sectioncontacttopleft {
-    border-right: 1px solid rgba(0, 0, 0, 0.342);
+#sectionmenu {
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+.menuimgs {
+    height: 10em;
+    width: 18em;    
+}
+
+#sectionmenuaccompaiments {
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
 
 .sendbutton {
