@@ -45,19 +45,52 @@
 
         </div>
     </header>
-    <section id="content" class="container-fluid">
+    <section id="content" class="container-fluid d-flex  justify-content-center align-items-center">
         <div id="sectioncontact" class=" row  d-flex  justify-content-center align-items-center">
 
             <div id="sectioncontacttop" class="col d-flex  justify-content-center align-items-center">
-                <div id="sectioncontacttopleft" class="col-3 d-flex  justify-content-center align-items-center">
+                <div id="sectioncontacttopleft" class="col-6 d-flex  justify-content-center align-items-center">
                     <img class="logocontact " src="/img/kebablogo.png" alt="Kebablogo">
                 </div>
-                <div id="sectioncontacttopright" class="col-9 d-flex  justify-content-center align-items-center">
-                    b
+                <div id="sectioncontacttopright" class="col-6 d-flex  justify-content-center align-items-center text-center">
+                    <div class="row d-flex  justify-content-center align-items-center">
+                    <h3 class="underlined">¡Contáctenos!</h3>
+                    <p>No dude en contactar con nosotros</p>
+                </div>
                 </div>
             </div>
-            <div id="sectioncontactbottom" class="col-12 d-flex  justify-content-center align-items-center">
-                c
+            <div id="sectioncontactbottom" class="col-12 d-flex  justify-content-center align-items-center text-center">
+                   
+        <form class="form my-5" action="">
+            
+            <label for="name">
+                Nombre:
+                <input type="text" placeholder="Introduzca el nombre" name="name">
+            </label>
+
+
+        <br>
+        <br>
+        
+            <label for="mail">
+                Email:
+                <input type="email" placeholder="Introduzca el email" name="mail">
+            </label>
+
+        <br>
+        <br>
+        
+            <label for="description">
+                Mensaje:
+                <textarea name="description" placeholder="No dude en dejarnos una sugerencia" id="" cols="30"
+                    rows="10"></textarea>
+            </label>
+
+        <br>
+        <br>
+
+        <button class="sendbutton">Enviar</button>
+    </form>
             </div>
 
         </div>

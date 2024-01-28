@@ -31,6 +31,7 @@ ul {
     width: 9em;
     height: 9em;
 }
+
 .logocontact {
     width: 5em;
     height: 5em;
@@ -51,45 +52,64 @@ ul {
 
 .indexcontent {
     /* background-color: aquamarine; */
-    margin-top: 1em; 
+    margin-top: 1em;
 
 }
 
-#indeximgquienessomos{
-height: 10em;
-width: 20em;
+#indeximgquienessomos {
+    height: 10em;
+    width: 20em;
 }
-#indexcontenttop{
-margin-bottom: 10em;
+
+#indexcontenttop {
+ margin-top:10em;  
+ margin-bottom: 10em;
 }
-#indexcontenttopright{
+
+#indexcontenttopright {
     border-left: solid rgba(0, 0, 0, 0.342);
 
 }
-#indexcontentmid{
+
+#indexcontentmid {
     margin-bottom: 10em;
 
 }
-#indexcontentmidright{
+
+#indexcontentmidright {
     border-left: solid rgba(0, 0, 0, 0.342);
 
 }
 
-#sectioncontact{
-border: 1px solid black;
+#sectioncontact {
+    border: 1px solid black;
+    margin-top: 10em;
+    margin-bottom: 10em;
+    background-color: beige;
 }
-#sectioncontacttop{
-    border: 1px solid black;
-    }
-#sectioncontacttopleft{
-    border: 1px solid black;
-    }
-#sectioncontacttopright{
-    border: 1px solid black;
-    }
-#sectioncontactbottom{
-    border: 1px solid black;
-    }
+
+#sectioncontacttop {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.342);
+}
+
+#sectioncontacttopleft {
+    border-right: 1px solid rgba(0, 0, 0, 0.342);
+}
+
+.sendbutton {
+    background-color: rgb(248, 154, 67);
+    color: rgb(170, 135, 39);
+    ;
+    border: 1px solid rgba(0, 0, 0, 0.342);
+    transition: 0.5s;
+}
+
+.sendbutton:hover {
+    background-color: rgb(199, 123, 52);
+    color: rgb(128, 101, 28);
+    transition: 0.5s;
+}
+
 
 #footercenter {
     border-left: solid rgba(0, 0, 0, 0.342);
