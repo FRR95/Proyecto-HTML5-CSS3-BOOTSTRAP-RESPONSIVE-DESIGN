@@ -31,17 +31,32 @@ ul {
     width: 9em;
     height: 9em;
 }
-.italic{
-font-style: italic;
+
+.italic {
+    font-style: italic;
 }
+
 .logocontact {
-    width: 5em;
-    height: 5em;
+    width: 9em;
+    height: 9em;
 }
 
 .colornavfooter {
-    background-color: rgb(255, 240, 191);
+    background-color: rgb(255 226 131 / 81%);
 }
+
+.userloginsigninbutton{
+background-color: rgba(211, 135, 36, 0.411);
+transition: 1s;
+padding: 0.1em;
+}
+.iconloginsignin{
+margin-right: 0.2em;
+}
+.userloginsigninbutton:hover{
+    background-color: rgba(175, 112, 29, 0.438);
+    transition: 1s;
+    }
 
 #content {
     background-color: rgb(214, 209, 166);
@@ -60,7 +75,7 @@ font-style: italic;
 
 .indeximgs {
     height: 10em;
-    width: 20em;
+    width: 17em;
 }
 
 #indexcontenttop {
@@ -87,7 +102,7 @@ font-style: italic;
     border: 1px solid black;
     margin-top: 10em;
     margin-bottom: 10em;
-    background-color: beige;
+    background-color: #d1d1bc;
 }
 
 #sectioncontacttop {
@@ -101,12 +116,19 @@ font-style: italic;
 
 .menuimgs {
     height: 10em;
-    width: 18em;    
+    width: 18em;
+    margin-top: 0.5em;
 }
 
 #sectionmenuaccompaiments {
     margin-top: 5em;
     margin-bottom: 5em;
+}
+
+.cardmeals {
+    background-color: rgb(255 248 213);
+    border-radius: 1%;
+    margin: 1em;
 }
 
 .sendbutton {
