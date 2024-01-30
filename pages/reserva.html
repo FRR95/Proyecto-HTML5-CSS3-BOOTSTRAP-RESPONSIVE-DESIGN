@@ -41,7 +41,6 @@
                         <div class="col"><a href="contacto.html">Contacto</a></div>
                         <div class="col"><a href="carta.html">Carta</a></div>
                         <div class="col"><a href="reserva.html">Reserva</a></div>
-
                     </div>
                 </div>
                 <div id="navright" class="col d-flex justify-content-center align-items-center">
@@ -64,10 +63,10 @@
         </div>
     </header>
     <section id="content" class="container-fluid d-flex  justify-content-center align-items-center">
-        <div id="sectioncontact" class=" row  d-flex  justify-content-center align-items-center">
+        <div id="sectionbooking" class=" row  d-flex  justify-content-center align-items-center">
 
-            <div id="sectioncontacttop" class="col d-flex  justify-content-center align-items-center">
-                <div id="sectioncontacttopleft" class="col-12 d-flex  justify-content-center align-items-center">
+            <div id="sectionbookingtop" class="col d-flex  justify-content-center align-items-center">
+                <div id="sectionbookingtopleft" class="col-12 d-flex  justify-content-center align-items-center">
                     <img class="logocontact " src="../img/kebablogo.png" alt="Kebablogo">
                 </div>
                 <!-- <div id="sectioncontacttopright" class="col-6 d-flex  justify-content-center align-items-center text-center">
@@ -77,11 +76,11 @@
                 </div>
                 </div> -->
             </div>
-            <div id="sectioncontactbottom" class="col-12 d-flex  justify-content-center align-items-center text-center">
+            <div id="sectionbookingbottom" class="col-12 d-flex  justify-content-center align-items-center text-center">
 
                 <form class="form my-5" action="">
-                    <h3 class="underlined">¡Contáctenos!</h3>
-                    <p>No dude en contactar con nosotros</p>
+                    <h3 class="underlined">¡Reserva tu mesa!</h3>
+                    <p>Reserve su mesa aquí</p>
                     <br>
                     <br>
                     <label for="name">
@@ -101,16 +100,42 @@
                     <br>
                     <br>
 
-                    <label for="description">
-                        Mensaje:
-                        <textarea name="description" placeholder="No dude en dejarnos una sugerencia" id="" cols="30"
-                            rows="10"></textarea>
+                    <label for="customers">Numero de comensales:</label>
+                    <select id="customers" name="customers">
+                        <option value="1Customer">1</option>
+                        <option value="2Customers">2</option>
+                        <option value="3Customers">3</option>
+                        <option value="4Customers">4</option>
+                        <option value="5OrMoreCustomers">5 o mas comensales</option>
+                    </select>
+
+
+                    <br>
+                    <br>
+
+                    <label for="date">
+                        Introduzca el dia que quiere reservar:
+                        <input type="date" placeholder="Introduzca el dia que quiere reservar" name="date">
                     </label>
 
+
                     <br>
                     <br>
 
-                    <button class="sendbutton">Enviar</button>
+                    <label for="hour">
+                        Introduzca la hora a la que quiere reservar:
+                        <input type="time" name="hour">
+                    </label>
+                    <br>
+                    <br>
+                    <p class="smallfont">Puede reservar de 13::00 a 15:00 y de 21:00 a 23:00</p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+
+                    <button class="sendbutton">Reservar</button>
                 </form>
             </div>
 

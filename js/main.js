@@ -17,8 +17,15 @@ function revealmenu() {
 
 };
 
+function revealbooking() {
+    const sectionmenu = document.querySelector("#sectionbooking");
+    sectionmenu.classList.add("active");
+
+};
+
 
 
 window.addEventListener("load", revealindex);
 window.addEventListener("load", revealcontact);
 window.addEventListener("load", revealmenu);
+window.addEventListener("load", revealbooking);
