@@ -23,7 +23,7 @@ Hi Geeks! I have made a website for a Turkish restaurant based in 📍 Valencia
 
 ## Pages 📇
 
-###Index.html
+### Index.html
 <img src="./img/IndexPC.PNG" alt="index" />
 
 **Desktop**
@@ -32,7 +32,7 @@ Hi Geeks! I have made a website for a Turkish restaurant based in 📍 Valencia
 
 **Mobile**
 
-###Contact.html
+### Contact.html
 <img src="./img/ContactPC.PNG" alt="index" />
 
 **Desktop**
