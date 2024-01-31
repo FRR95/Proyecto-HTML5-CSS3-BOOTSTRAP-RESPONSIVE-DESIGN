@@ -41,16 +41,16 @@ Hi Geeks! I have made a website for a Turkish restaurant based in 📍 Valencia
 
 **Mobile**
 
-###Menu.html
-<img src="./img/ContactPC.PNG" alt="index" />
+### Menu.html
+<img src="./img/MeniPC.PNG" alt="index" />
 
 **Desktop**
 
-<img src="./img/ContactMVL.PNG" alt="index" />
+<img src="./img/Menumvl.PNG" alt="index" />
 
 **Mobile**
 
-###Booking.html
+### Booking.html
 <img src="./img/Booking.PNG" alt="index" />
 
 **Desktop**
@@ -59,7 +59,7 @@ Hi Geeks! I have made a website for a Turkish restaurant based in 📍 Valencia
 
 **Mobile**
 
-###Navbar
+### Navbar
 <img src="./img/navpc.PNG" alt="index" />
 
 **Desktop**
@@ -68,7 +68,7 @@ Hi Geeks! I have made a website for a Turkish restaurant based in 📍 Valencia
 
 **Mobile**
 
-###Footer
+### Footer
 <img src="./img/footerpc.PNG" alt="index" />
 
 **Desktop**
@@ -218,7 +218,7 @@ window.addEventListener("load", revealindex);
 ```col/row-lg-(number of columns)```***,***```col/row-md-(number of columns)```***,***```col/row-sm-(number of columns)```***and***```col/row-xs-(number of columns)``` ***for making responsive elements in PC,Tablet or Mobile respectively***
 
 
-##Deployment 👁‍🗨
+## Deployment 👁‍🗨
 
 You can see my website in this url:
 
